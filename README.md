@@ -60,7 +60,17 @@ You are expected to create the python files - the code should run without errors
 * What clever way will you visualize your output with a useful infographic?
 
 
-## (Part 1.6) - Real Data **(10%)**
+
+# Part 2: Creating a Model from Code
+
+## (Part 2.1) **P**ortable **O**rganic **T**rouble-free **S**elf-watering System (**POTS**) Model **(10%)**
+Here [**we provide an overview**](code/POTS_system/README.md) of the **P**ortable **O**rganic **T**rouble-free **S**elf-watering System (**POTS**) Model and provide a source code template for the code found in  [**the following folder**](code/POTS_system/). Please create a **class** diagram of this model (replace the placeholder diagram). (you can use paper and pencil or a digital tool).
+
+
+
+# Part 3: Data Analysis
+
+## (Part 3.1) - Real Data **(10%)**
 
 Find a datasource that looks at part of this model - subway stations locations / escalator number, heights, widths / volume of passangers - ridership numbers   (*fits* - we are pretty loose here, it can be anything.)
 
@@ -73,22 +83,15 @@ Find a datasource that looks at part of this model - subway stations locations /
 (Add your plots and visualization here)
 (Put your data into the data directory)
 
-# Part 2: Data Analysis
 
-## (Part 2.1) **P**ortable **O**rganic **T**rouble-free **S**elf-watering System (**POTS**) Model **(10%)**
-Here [**we provide an overview**](code/POTS_system/README.md) of the **P**ortable **O**rganic **T**rouble-free **S**elf-watering System (**POTS**) Model and provide a source code template for the code found in  [**the following folder**](code/POTS_system/). Please create a **class** diagram of this model (replace the placeholder diagram). (you can use paper and pencil or a digital tool).
-
-
-
-
-## (Part 2.2) -  Plotting 2D Random Number Generators **(15%)**
+## (Part 3.2) -  Plotting 2D Random Number Generators **(15%)**
 
 This portion of the assignment looks at generating random numbers in Python and understanding how to properly plot them. Plot two different random numbers, pseudo random and quasi random, for five different N values. There should be 10 subplots, all properly formatted 2D plots. Note, each of the N points will have two coordinates, an x and a y, therefore you will need to generate two random numbers for each point. You should replace the image with your results in a simalar format. Discuss how the patterns differ. Feel free to change the N values from the suggested N values in the image to state your case.
 
 ![Image of 2d template City](images/2Dtemplate.png)
 
 
-## (Part 2.3) -  Plotting 1D Random Distributions **(15%)**
+## (Part 3.3) -  Plotting 1D Random Distributions **(15%)**
 
 Now, choose three different distributions to plot in 1D, or as a histogram. Choose a pseudo-random generator and generate three different distributions. Example distributions are Uniform (part 8), Normal, Exponential, Poisson, and Chi-Squared, but feel free to use any three distributions of your choice. Again, plot each distribution for five different Ns. This will result in 15 different subplots, formatted similar to the image in Part 8. Include your properly formmated 1D plots below and breifly describe what we are looking at and how things change as N is changed.
 
