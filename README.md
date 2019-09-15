@@ -1,8 +1,8 @@
 # Assignment 1 - Designing Models and Analyzing Data (Template)
 (remove: **text between brackets to be removed**)
 
-> * Participant name: (your name)
-> * Project Title: (Title of the problem you are looking and modeling)
+> * Participant name: Michael Schwartz
+> * Project Title: Ticket Kiosk Passenger Flow Simulation
 
 # General Introduction
 
@@ -16,6 +16,7 @@ The second part of the assignment explores data analysis. Data analysis and visu
 # Part 1: Designing a Model - Subway System
 
 (remove: States your motivation clearly: why is it important / interesting to solve this problem?)
+As the world's population increases, consumption of resources also increases. In order to combat climate change, improve air quality and still serve people by transporting them, use of public transportation needs to increase. As public transportation use increases, the problem of queueing in subway systems becomes more severe. The number of queueing events and time spent on each event directly impact the experiences of passengers.
 
 (remove: Add real-world examples, if any)
 
