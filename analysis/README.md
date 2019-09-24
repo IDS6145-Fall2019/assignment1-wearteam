@@ -12,9 +12,31 @@ buy a ticket and will pick the shortest available ticket kiosk line.
 
 This simulation type was chosen because the decisions and actions of buying a subway ticket are easily divided into
 discrete steps: enter ticket kiosk area, decide to purchase ticket, choose the optimal queue to wait in, enter queue,
-wait in the queue, purchase ticket, exit ticket kiosk area
-'''
+wait in the queue, purchase ticket, exit ticket kiosk area.
 
+I would collect data from available inputs, set initial parameters for determining optimal queue length and wait time,
+run the simulation, analyze the results, and modify the parameters until an optimal solution was found. I would then
+rerun the simulation to determine the optimal solutions for different sets of parameters until realistic use cases were
+addressed.
+'''
 (remove: Roughly, how would you conduct the simulation to produce the results from your specification?)
 
-(remove: images say 1000 words for you...)
+#initialize
+import numpy
+import cv2
+import pygame
+from pygame.locals import *
+
+pygame.init()
+
+screen = pygame.display.set_mode((640,447),0,32)
+
+#read image
+img = cv2.imread("subway_queue.jpg")
+
+#show image
+cv2.imshow("subway_queue.jpg", img)
+
+#close and exit
+cv2.waitKey(0)
+cv2.destroyAllWindows()
