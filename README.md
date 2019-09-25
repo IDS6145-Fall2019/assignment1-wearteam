@@ -19,9 +19,6 @@ As the world's population increases, consumption of resources also increases. In
 
 For this assignment, I chose to use the example of Hangzou Metro Line 1 Wulin Square Station. Yang, Li, and Zhao (2014) indicate that their models show when pedestrian flow rate is at 1500 people/hour, opening two ticket windows is the best solution. When pedestrian flow rate increases to 2500 people/hour, opening four ticket windows is optimal.
 
-(remove: Put the problem into a historical context, from what does it originate? Are there already some proposed solutions?)
-
-
 ![Image of Subway City System](images/subway_model.png)
 
 ## (Part 1.1): Requirements (Experimental Design) **(10%)**
