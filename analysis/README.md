@@ -18,7 +18,12 @@ I would collect data from available inputs, set initial parameters for determini
 run the simulation, analyze the results, and modify the parameters until an optimal solution was found. I would then
 rerun the simulation to determine the optimal solutions for different sets of parameters until realistic use cases were
 addressed.
+
+Inputs to the simulation are number of passengers, number of available ticket kiosks and average time per customer per kiosk. The output is the number of passengers who are able to buy a ticket in under a set period of time (i.e. customers per minute).
+
+This simulation type helps with analysis because it quickly and easily allows for examination of how to optimize a key bottleneck in subway systems. Optimal solutions are arrived at more quickly and inexpensively than randomly trying solutions with real people in a real subway system.
 '''
+
 
 #initialize
 import numpy
@@ -39,5 +44,3 @@ cv2.imshow("subway_queue.jpg", img)
 #close and exit
 cv2.waitKey(0)
 cv2.destroyAllWindows()
-
-C:\Users\michael\PycharmProjects\assignment1-wearteam\images\subway_queue.jpg
