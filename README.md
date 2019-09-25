@@ -15,15 +15,14 @@ The second part of the assignment explores data analysis. Data analysis and visu
 
 # Part 1: Designing a Model - Subway System
 
-As the world's population increases, consumption of resources also increases. In order to combat climate change, improve air quality and still serve people by transporting them, use of public transportation needs to increase. As public transportation use increases, the problem of queueing in subway systems becomes more severe. The number of queueing events and time spent on each event directly impact the experiences of passengers, which impacts the overall use of public transportation systems.
-
-For this assignment, I chose to use the example of Hangzou Metro Line 1 Wulin Square Station. Yang, Li, and Zhao (2014) indicate that their models show when pedestrian flow rate is at 1500 people/hour, opening two ticket windows is the best solution. When pedestrian flow rate increases to 2500 people/hour, opening four ticket windows is optimal.
 
 ![Image of Subway City System](images/subway_model.png)
 
 ## (Part 1.1): Requirements (Experimental Design) **(10%)**
+As the world's population increases, consumption of resources also increases. In order to combat climate change, improve air quality and still serve people by transporting them, use of public transportation needs to increase. As public transportation use increases, the problem of queueing in subway systems becomes more severe. The number of queueing events and time spent on each event directly impact the experiences of passengers, which impacts the overall use of public transportation systems.
+For this assignment, I chose to use the example of Hangzou Metro Line 1 Wulin Square Station. Yang, Li, and Zhao (2014) indicate that their models show when pedestrian flow rate is at 1500 people/hour, opening two ticket windows is the best solution. When pedestrian flow rate increases to 2500 people/hour, opening four ticket windows is optimal.
 
-(remove: You should start by specifying a set of requirements. I specified a topic a Subway escalator. What exactly does that mean - practice formulating your own set of requirements and an experiment. Define problems cities face and hypothesize how a subway system could help alleviate these issue. This helps you think about your problem communication and system objectives inputs, functions, and outputs - they should be clearly specified.)
+
 
 ## (Part 1.2) Subway (My Problem) Model **(10%)**
 
