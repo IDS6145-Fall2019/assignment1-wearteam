@@ -2,4 +2,4 @@
 
 
 
-C:\Users\michael\PycharmProjects\assignment1-wearteam\images\POTS_model.jpg
+(../images/POTS_model.jpg)

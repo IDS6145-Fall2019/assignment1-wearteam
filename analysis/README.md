@@ -24,25 +24,4 @@ Inputs to the simulation are number of passengers, number of available ticket ki
 This simulation type helps with analysis because it quickly and easily allows for examination of how to optimize a key bottleneck in subway systems. Optimal solutions are arrived at more quickly and inexpensively than randomly trying solutions with real people in a real subway system.
 '''
 
-
-#initialize
-import numpy
-import cv2
-import pygame
-from pygame.locals import *
-
-pygame.init()
-
-screen = pygame.display.set_mode((640,447),0,32)
-
-#read image
-img = cv2.imread("subway_queue.jpg")
-
-#show image
-cv2.imshow("subway_queue.jpg", img)
-
-#close and exit
-cv2.waitKey(0)
-cv2.destroyAllWindows()
-
-C:\Users\michael\PycharmProjects\assignment1-wearteam\images\subway_queue.jpg
+(../images/subway_queue.jpg)
