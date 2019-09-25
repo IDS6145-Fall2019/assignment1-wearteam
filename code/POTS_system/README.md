@@ -1,15 +1,23 @@
 ## **P**ortable **O**rganic **T**rouble-free **S**elf-watering System (**POTS**) Model
 
-(Remove: decribe the model here, use whatever diagram you need object, class, etc)
+#initialize
+import numpy
+import cv2
+import pygame
+from pygame.locals import *
 
-(Remove: The code does run - you should try it. It does not do much, but has a very basic 
-simulation loop in it and key press to take a look at.)
+pygame.init()
 
-(Remove: You kill your plants after a key timesteps, but you could always add nuterients
-from compost and add more water and tweak it based on measured constants to simulate
-a real system)
+screen = pygame.display.set_mode((3024,4032),0,32)
 
+#read image
+img = cv2.imread("POTS_model.jpg")
 
-Example linked diagram to help you.
-![POTS system](../../images/class_example_diagram.png)
-more decription
+#show image
+cv2.imshow("POTS_model.jpg", img)
+
+#close and exit
+cv2.waitKey(0)
+cv2.destroyAllWindows()
+
+C:\Users\michael\PycharmProjects\assignment1-wearteam\images\POTS_model.jpg

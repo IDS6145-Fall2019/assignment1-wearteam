@@ -19,7 +19,6 @@ run the simulation, analyze the results, and modify the parameters until an opti
 rerun the simulation to determine the optimal solutions for different sets of parameters until realistic use cases were
 addressed.
 '''
-(remove: Roughly, how would you conduct the simulation to produce the results from your specification?)
 
 #initialize
 import numpy
@@ -40,3 +39,5 @@ cv2.imshow("subway_queue.jpg", img)
 #close and exit
 cv2.waitKey(0)
 cv2.destroyAllWindows()
+
+C:\Users\michael\PycharmProjects\assignment1-wearteam\images\subway_queue.jpg
