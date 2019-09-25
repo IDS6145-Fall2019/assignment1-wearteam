@@ -44,3 +44,5 @@ cv2.imshow("subway_queue.jpg", img)
 #close and exit
 cv2.waitKey(0)
 cv2.destroyAllWindows()
+
+C:\Users\michael\PycharmProjects\assignment1-wearteam\images\subway_queue.jpg
