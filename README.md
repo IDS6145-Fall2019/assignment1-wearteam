@@ -55,7 +55,6 @@ You are expected to create the python files - the code should run without errors
 
 ## (Part 1.5) Specifying the Inputs to a System **(10%)**
 
-(remove the below points once ideas are satisfied)
 * IVs: number of passengers per hour, number of available ticket kiosks
 DVs: ticket kiosk use rate, average queue length, time to complete ticket purchase process
 * Data are from Yang, Li, & Zhao (2014)
@@ -93,11 +92,28 @@ Find a datasource that looks at part of this model - subway stations locations /
 
 This portion of the assignment looks at generating random numbers in Python and understanding how to properly plot them. Plot two different random numbers, pseudo random and quasi random, for five different N values. There should be 10 subplots, all properly formatted 2D plots. Note, each of the N points will have two coordinates, an x and a y, therefore you will need to generate two random numbers for each point. You should replace the image with your results in a simalar format. Discuss how the patterns differ. Feel free to change the N values from the suggested N values in the image to state your case.
 
+
+
 ![Image of 2d template City](images/2Dtemplate.png)
 
 
 ## (Part 3.3) -  Plotting 1D Random Distributions **(15%)**
 
+import numpy as np
+import scipy.stats
+from scipy.stats import truncnorm
+import matplotlib.pyplot as plt
+
+x=linspace(0,100,2)
+y=exp(-(x-0.5)**2/(2.0*(0.1/(2*sqrt(2*log(2))))**2))
+
+plt.hist(gaussian)
+plt.hist(poisson)
+plt.show()
+
+
+X = truncnorm(a=-range/scale, b=+range/scale, scale=scale).rvs(size=size)
+X = X.round().astype(int)
 Now, choose three different distributions to plot in 1D, or as a histogram. Choose a pseudo-random generator and generate three different distributions. Example distributions are Uniform (part 8), Normal, Exponential, Poisson, and Chi-Squared, but feel free to use any three distributions of your choice. Again, plot each distribution for five different Ns. This will result in 15 different subplots, formatted similar to the image in Part 8. Include your properly formmated 1D plots below and breifly describe what we are looking at and how things change as N is changed.
 
 Repeat the above using a quasi-random generator. Discuss the similarities and differences.
