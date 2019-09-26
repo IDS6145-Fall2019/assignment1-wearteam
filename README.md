@@ -56,12 +56,13 @@ You are expected to create the python files - the code should run without errors
 ## (Part 1.5) Specifying the Inputs to a System **(10%)**
 
 (remove the below points once ideas are satisfied)
-* Specify the independent and dependent input variables of your subway esclator model
-* Specify where the data will come from measured subset of real data (empirical) or synthetic data
-* What kind of statistics are important to capture this input data
-* How do you plan to analyze the output of your model?
-* What ways will you visualize your data - charts, and graphs you will create?
-* What clever way will you visualize your output with a useful infographic?
+* IVs: number of passengers per hour, number of available ticket kiosks
+DVs: ticket kiosk use rate, average queue length, time to complete ticket purchase process
+* Data are from Yang, Li, & Zhao (2014)
+* Important statistics to capture: number of passengers per hour at peak and average times, % of passengers who are required to enter the ticket queue, number of available ticket kiosks, total number of ticket kiosks, average length of queue, average time to complete ticket purchase process
+* I plan to analyze the model's output in AnyLogic, which follows the methodology of prior research
+* I will visualize data with line graphs showing the change over time for various scenarios (i.e., passenger flow rates). The line will represent average queue length or ticket purchase time. The x axis will represent the number of passengers per hour. The y axis will represent the number of available ticket kiosks.
+* I will use an infographic to present the data by presenting the average length of queue as stick figures standing along subway tracks that extend horizontally across the page. Each track represents a different number of available ticket kiosks (e.g., line 1 represents 1 window is open, line 2 represents 2 windows are open, etc.). The average time to purchase a ticket is represented by trains that are on the tracks but in the background (the stick figure people are superimposed on the figures of the trains). Above the train tracks are two round analog clocks, one to represent midnight to noon and the other representing noon to midnight. Each clock is divided into 12 parts and in each part is a number that represents the average number of passengers per hour.
 
 
 
