@@ -24,4 +24,4 @@ Inputs to the simulation are number of passengers, number of available ticket ki
 This simulation type helps with analysis because it quickly and easily allows for examination of how to optimize a key bottleneck in subway systems. Optimal solutions are arrived at more quickly and inexpensively than randomly trying solutions with real people in a real subway system.
 '''
 
-!(../images/subway_queue.png)
+![Subway queue example](/images/subway_queue.png)
