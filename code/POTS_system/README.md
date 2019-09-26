@@ -2,4 +2,4 @@
 
 
 
-!(../images/POTS_model.png)
+![POTS class diagram](/images/POTS_model.png)
