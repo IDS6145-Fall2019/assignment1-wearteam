@@ -22,7 +22,15 @@ The second part of the assignment explores data analysis. Data analysis and visu
 As the world's population increases, consumption of resources also increases. In order to combat climate change, improve air quality and still serve people by transporting them, use of public transportation needs to increase. As public transportation use increases, the problem of queueing in subway systems becomes more severe. The number of queueing events and time spent on each event directly impact the experiences of passengers, which impacts the overall use of public transportation systems.
 For this assignment, I chose to use the example of Hangzou Metro Line 1 Wulin Square Station. Yang, Li, and Zhao (2014) indicate that their models show when pedestrian flow rate is at 1500 people/hour, opening two ticket windows is the best solution. When pedestrian flow rate increases to 2500 people/hour, opening four ticket windows is optimal.
 
+The objective for this simulation are to find the optimal set of solutions for pedestrian flow through the subway ticket kiosk area of Wulin Square Station.
+Inputs were obtained from Yang, Li, and Zhao (2014). According to the authors between 500 and 2500 passengers use the Wulin Square Station each hour, depending on time of day.
+Most passengers do not need to get in a queue for a ticket; however, approximately 15% do. For this simulation, we will presume 15% of 500-2500 passengers need to queue for a ticket.
+Wulin Square Station has six ticket windows, but only two to four are used, depending on pedestrian flow rate.
+Outputs for this simulation include the average length of queue, time to complete ticket purchase and pass through ticket kiosk area, and ticket kiosk utilization rate.
+Necessary functions to analyze this simulation data are calculations for ticket kiosk use rate and average length of queue.
 
+Reference
+Yang, Y., Li, J., & Zhao, Q. (2014). Study on passenger flow simulation in urban subway station based on anylogic. Journal of Software, 9(1), 140-146.
 
 ## (Part 1.2) Subway (My Problem) Model **(10%)**
 
