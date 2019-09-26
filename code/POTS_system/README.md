@@ -2,4 +2,4 @@
 
 
 
-(../images/POTS_model.png)
+!(../images/POTS_model.png)
